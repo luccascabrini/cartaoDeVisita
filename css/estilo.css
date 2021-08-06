@@ -1,0 +1,47 @@
+body{
+    background-color: black;
+    margin: 0;
+    padding: 0;
+}
+
+#container{
+    margin: 0 auto;
+    height: 200px;
+    width: 400px;
+    background:url(../imagens/backgorund.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#nome{
+    font-size: 0.8em;
+    padding-top: 7px;
+    padding-left: 35px;
+    text-shadow: 2px 2px 5px #bbb;
+    font-family: Helvetica, "Comic Sans MS", monospace;
+    letter-spacing: 0;
+    font-variant: small-caps
+}
+
+.lista{
+    list-style: none;
+   
+    
+}
+
+a:link, a:visited {
+    text-decoration: none;
+    color: #000;
+}
+
+
+a:hover, a:active{
+    color: cornflowerblue;
+    text-shadow: 2px 2px 5px cornflowerblue;
+}
+
+li{
+    font-family: Helvetica, "Comic Sans MS", monospace;
+    /*line-height: 15%;*/
+    text-shadow: 2px 2px 5px black;
+}
